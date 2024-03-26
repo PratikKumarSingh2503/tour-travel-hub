@@ -1,0 +1,134 @@
+#books {
+    padding: 0px 0px;
+    color: #ababab;
+    top: 260px;
+}
+
+.booksSec {
+    margin: 10px 10px 0;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+
+.booksTitle {
+    margin: 20px auto;
+}
+
+.booksTitle span {
+    padding: 5px;
+    margin-left: 5px;
+    font-size: 30px;
+    border-radius: 5px;
+    background-color: #ababab;
+}
+
+.booksContainer {
+    align-items: center;
+    margin: 10px 0px;
+}
+
+.booksSlide {
+    margin: 20px 50px;
+    display: flex;
+    border-radius: 4px;
+}
+
+.booksImage {
+    position: relative;
+    flex: 7;
+    height: 400px;
+    overflow: hidden;
+    background-color: red;
+}
+
+.booksImage img {
+    height: 400px;
+    width: 100%;
+    object-fit: cover;
+    cursor: pointer;
+    border-radius: 5px;
+    object-fit: cover;
+}
+
+.booksImageIcons {
+    position: absolute;
+    width: 100%;
+    height: 120%;
+    bottom: 0;
+    text-align: center;
+    z-index: 10;
+    transform: translateY(0);
+}
+
+.booksSlide .booksImage .booksImageIcons:hover {
+    transform: translateY(30px);
+    padding-top: 250px;
+}
+
+.booksImageIcons a {
+    font-size: 15px;
+    color: black;
+}
+
+.booksImageIcons i {
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.booksImageIcons a:hover {
+    background-color: black;
+    color: white;
+}
+
+.booksContent {
+    margin: auto 0 auto 30px;
+    flex: 5;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 16px 32px gray;
+}
+.booksContent form{
+    margin-left: 30px;
+}
+.booksInputBox {
+}
+
+.booksInputBox h3 {
+    margin-top: 10px;
+}
+
+.booksInputBox input {
+    margin-top: 5px;
+    height: 30px;
+    width: 300px;
+    border-radius: 5px;
+}
+
+.booksContent button {
+    margin: 20px 0;
+    margin-right: auto;
+    right: 20px;
+    padding: 10px;
+    border-radius: 3px;
+    color: white;
+    font-weight: 800;
+    background-color: #FFA500;
+}
+
+.tohome {
+    margin: 20px 0;
+    text-align: center;
+}
+
+.tohome button {
+    padding: 8px;
+    color: black;
+    font-weight: 600;
+    background-color: rgb(254, 241, 241);
+}
+
+.tohome button:hover {
+    background-color: black;
+    color: white;
+}

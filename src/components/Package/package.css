@@ -1,0 +1,138 @@
+#package {
+  padding: 0px 0px;
+  color: #ababab;
+  top: 260px;
+}
+
+.packageSec {
+  margin: 10px auto;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  overflow: hidden;
+  overflow-y: scroll;
+}
+
+.packageTitle {
+  margin: 20px auto;
+}
+
+.packageTitle span {
+  padding: 5px;
+  font-size: 30px;
+  border-radius: 5px;
+  background-color: #ababab;
+}
+
+.packageContainer {
+  margin: 0 auto;
+  display: flex;
+}
+
+.packageSlide {
+  width: 300px;
+  margin: 20px 10px;
+  border: 1px solid black;
+}
+.packageSlide:hover{
+  box-shadow: 0 16px 32px gray;
+}
+
+.packageImage {
+  position: relative;
+  height: 300px;
+  width: 300px;
+  border-bottom: 1px solid black;
+  overflow: hidden;
+}
+
+.packageImage img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  cursor: pointer;
+  background-size: cover;
+}
+
+.packageImageIcons {
+  position: absolute;
+  width: 100%;
+  height: 120%;
+  bottom: 0;
+  text-align: center;
+  z-index: 10;
+  transform: translateY(0);
+}
+
+.packageSlide .packageImage .packageImageIcons:hover {
+  transform: translateY(30px);
+  padding-top: 170px;
+}
+
+.packageImageIcons a {
+  font-size: 15px;
+  color: black;
+}
+
+.packageImageIcons i {
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.packageImageIcons a:hover {
+  background-color: black;
+  color: white;
+}
+
+.packageContent {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+}
+
+.packageContent h3 {
+  margin-top: 10px;
+  color: #FFA500;
+  font-weight: 1000;
+}
+
+.packageRating {
+  margin-top: 10px;
+  margin-right: auto;
+  right: 20px;
+  padding: 4px;
+  border-radius: 4px;
+  color: white;
+  background-color: black;
+}
+
+.packagePrice {
+  margin-top: 10px;
+}
+.packageContent button{
+  margin: 10px 0;
+  margin-right: auto;
+  right: 20px;
+  padding: 10px;
+  border-radius: 3px;
+  color: white;
+  font-weight: 800;
+  background-color: #FFA500 ;
+}
+
+.topackage {
+  margin: 20px 0;
+  text-align: center;
+}
+
+.topackage button {
+  padding: 8px;
+  color: black;
+  font-weight: 600;
+  background-color: rgb(254, 241, 241);
+}
+
+.topackage button:hover {
+  background-color: black;
+  color: white;
+}

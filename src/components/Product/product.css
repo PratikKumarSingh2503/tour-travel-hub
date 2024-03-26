@@ -1,0 +1,123 @@
+#product {
+  padding: 0px 0px;
+  color: #ababab;
+  top: 260px;
+}
+
+.productSec {
+  margin: 10px auto;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+}
+
+.productTitle {
+  margin: 20px auto;
+}
+
+.productTitle span {
+  padding: 5px;
+  font-size: 30px;
+  border-radius: 5px;
+  background-color: #ababab;
+}
+
+.productContainer {
+  margin: 0 auto;
+  display: flex;
+}
+
+.productSlide {
+  width: 200px;
+  margin: 20px 20px;
+  text-align: center;
+  border: 1px solid black;
+}
+
+.productSlide:hover {
+  box-shadow: 0 16px 32px gray;
+}
+
+.productImage {
+  position: relative;
+  height: 200px;
+  width: 200px;
+  border-bottom: 1px solid black;
+  overflow: hidden;
+}
+
+.productImage img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  cursor: pointer;
+}
+
+.productImageIcons {
+  position: absolute;
+  width: 100%;
+  height: 120%;
+  bottom: 0;
+  text-align: center;
+  z-index: 10;
+  transform: translateY(0);
+}
+
+.productSlide .productImage .productImageIcons:hover {
+  transform: translateY(30px);
+  padding-top: 170px;
+}
+
+.productImageIcons a {
+  font-size: 15px;
+  color: black;
+}
+
+.productImageIcons i {
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.productImageIcons a:hover {
+  background-color: black;
+  color: white;
+}
+
+.productContent {
+  display: flex;
+  flex-direction: column;
+}
+
+.productContent h3 {
+  margin-top: 10px;
+}
+
+.productContent p {
+  margin-top: 5px;
+}
+
+.productContent button {
+  margin: 10px auto;
+  padding: 4px;
+  border-radius: 4px;
+  color: white;
+  background-color: black;
+}
+
+.toproduct {
+  margin: 20px 0;
+  text-align: center;
+}
+
+.toproduct button {
+  padding: 8px;
+  color: black;
+  font-weight: 600;
+  background-color: rgb(254, 241, 241);
+  cursor: pointer;
+}
+
+.toproduct button:hover {
+  background-color: black;
+  color: white;
+}

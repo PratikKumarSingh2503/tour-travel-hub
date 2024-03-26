@@ -1,0 +1,99 @@
+#service {
+  padding: 0px 0px;
+  color: #ababab;
+  top: 260px;
+}
+
+.serviceSec {
+  margin: 10px 0px;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+}
+
+.serviceTitle {
+  margin: 20px auto;
+}
+
+.serviceTitle span {
+  padding: 5px;
+  font-size: 30px;
+  border-radius: 5px;
+  background-color: #ababab;
+}
+
+.serviceContainer {
+  margin: 0 auto;
+  display: flex;
+}
+
+.serviceSlide {
+  width: 330px;
+  margin: 10px 10px;
+  text-align: center;
+  border-radius: 4px;
+  border: 1px solid black;
+}
+
+.serviceSlide:hover{
+  /* background: #081b29; */
+  background: rgb(0, 37, 0);
+  }
+
+.serviceSlide:hover img{
+    filter: invert(1);
+  }
+
+.serviceSlide:hover p{
+    color: white;
+  }
+
+  .serviceSlide:hover button{
+    color: black;
+    font-weight: 600;
+    background: white;
+  }
+
+.serviceSlide img {
+  height: 70px;
+  width: 70px;
+  margin: 10px 0;
+  object-fit: cover;
+}
+
+.serviceSlide h3 {
+  margin-top: 10px;
+  color: rgba(2, 146, 2, 0.926);
+}
+
+.serviceSlide p {
+  color: black;
+  margin: 10px 15px 0;
+  line-height: 2;
+}
+
+.serviceSlide button {
+  margin: 10px auto;
+  padding: 5px;
+  border-radius: 4px;
+  color: white;
+  background-color: black;
+}
+
+.toservices {
+  margin: 20px 0;
+  text-align: center;
+}
+
+.toservices button {
+  padding: 8px;
+  color: black;
+  font-weight: 600;
+  background-color: rgb(254, 241, 241);
+  cursor: pointer;
+}
+
+.toservices button:hover {
+  background-color: black;
+  color: white;
+}

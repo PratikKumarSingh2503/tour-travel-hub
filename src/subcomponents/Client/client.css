@@ -1,0 +1,16 @@
+.clientSec {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.clientImage{
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+}
+.clientSec img{
+    width: 250px;
+    height: 250px;
+}
