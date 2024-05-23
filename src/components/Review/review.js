@@ -80,9 +80,31 @@ const Review = () => {
                                 <span>Designer</span>
                             </div>
                         </div>
-
                     </div>
-
+                    <div className='reviewSlide'>
+                        <p className='reviewComment'>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.Sapiente error eum minima nesciunt a minus et ea ipsam corporis
+                        </p>
+                        <div className='reviewUser'>
+                            <img src={review4} alt='' />
+                            <div className='reviewUserInfo'>
+                                <h3>John Deo</h3>
+                                <span>Designer</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div className='reviewSlide'>
+                        <p className='reviewComment'>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.Sapiente error eum minima nesciunt a minus et ea ipsam corporis
+                        </p>
+                        <div className='reviewUser'>
+                            <img src={review4} alt='' />
+                            <div className='reviewUserInfo'>
+                                <h3>John Deo</h3>
+                                <span>Designer</span>
+                            </div>
+                        </div>
+                    </div>
                 </div>
 
                 <div className='toreview'>

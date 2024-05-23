@@ -5,7 +5,7 @@
 }
 
 .serviceSec {
-  margin: 10px 0px;
+  margin: 10px auto;
   display: flex;
   flex-direction: column;
   background-color: white;
@@ -23,36 +23,48 @@
 }
 
 .serviceContainer {
-  margin: 0 auto;
+  margin: 10px 100px;
   display: flex;
+  gap: 55px;
+  border: 1px solid #0b0b11;
+  border-radius: 4px;
+  overflow-x: scroll;
 }
 
 .serviceSlide {
   width: 330px;
-  margin: 10px 10px;
+  margin: 10px auto;
   text-align: center;
   border-radius: 4px;
   border: 1px solid black;
 }
 
-.serviceSlide:hover{
+.serviceSlide:first-child {
+  margin-left: 30px;
+}
+
+.serviceSlide:last-child {
+  margin-right: 30px;
+}
+
+.serviceSlide:hover {
   /* background: #081b29; */
   background: rgb(0, 37, 0);
-  }
+}
 
-.serviceSlide:hover img{
-    filter: invert(1);
-  }
+.serviceSlide:hover img {
+  filter: invert(1);
+}
 
-.serviceSlide:hover p{
-    color: white;
-  }
+.serviceSlide:hover p {
+  color: white;
+}
 
-  .serviceSlide:hover button{
-    color: black;
-    font-weight: 600;
-    background: white;
-  }
+.serviceSlide:hover button {
+  color: black;
+  font-weight: 600;
+  background: white;
+}
 
 .serviceSlide img {
   height: 70px;
@@ -70,6 +82,7 @@
   color: black;
   margin: 10px 15px 0;
   line-height: 2;
+  width: 300px;
 }
 
 .serviceSlide button {
@@ -96,4 +109,22 @@
 .toservices button:hover {
   background-color: black;
   color: white;
+}
+
+@media (max-width: 750px) {
+  .serviceTitle span {
+    font-size: 24px;
+  }
+
+  .serviceContainer {
+    margin: 10px 50px;
+  }
+
+  .serviceSlide:first-child {
+    margin-left: 15px;
+  }
+
+  .serviceSlide:last-child {
+    margin-right: 15px;
+  }
 }

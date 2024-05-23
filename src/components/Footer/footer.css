@@ -5,6 +5,8 @@
 
 .footerSec {
     margin: 10px auto 0;
+    display: flex;
+    flex-direction: column;
     color: white;
     background-color: #262626;
 }
@@ -12,26 +14,53 @@
 .footerContainer {
     margin: 0 auto;
     display: flex;
-    justify-content: center;
+    gap: 150px;
 }
 
 .footerSlide {
-    margin: 20px 90px;
+    margin: 5px auto;
     display: flex;
     flex-direction: column;
     text-align: left;
 }
-.footerSlide h3{
+
+.footerSlide h3 {
     margin: 20px 0;
     font-size: 20px;
     font-weight: 600;
 }
+
 .footerSlide a {
     line-height: 2.5;
     color: white;
 }
-.footerSec p{
+
+.footerSec p {
     padding: 20px 0;
     text-align: center;
     color: rgb(255, 190, 190);
+}
+
+@media (max-width: 1050px) {
+    .footerContainer {
+        gap: 55px;
+    }
+    .footerSlide h3{
+        font-size: 20px;
+    }
+    .footerSlide a, p{
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 700px) {
+    .footerContainer {
+        gap: 15px;
+    }
+    .footerSlide h3{
+        font-size: 15px;
+    }
+    .footerSlide a, p{
+        font-size: 10px;
+    }
 }

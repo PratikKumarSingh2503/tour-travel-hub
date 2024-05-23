@@ -51,3 +51,12 @@
     color: white;
     background: rgb(0, 71, 0);
 }
+@media (max-width: 750px) {
+    .subscriptionTitle span {
+      font-size: 24px;
+    }
+  
+    .subscriptionForm {
+        width: 400px;
+    }
+  }

@@ -56,6 +56,18 @@ const Category = () => {
                         </a>
                     </div>
                     <div className='categorySlide'>
+                        <img src={zip} alt='' />
+                        <h3>Zip Lines</h3>
+                        <p>
+                            Lorem ipsum dolar sit amet consectetur, adipiscing elit.Laborum, id.
+                        </p>
+                        <a href='#'>
+                            <button>
+                                Read More
+                            </button>
+                        </a>
+                    </div>
+                    <div className='categorySlide'>
                         <img src={canoeing} alt='' />
                         <h3>Canoeing</h3>
                         <p>
@@ -79,7 +91,7 @@ const Category = () => {
                             </button>
                         </a>
                     </div>
-                    {/* <div className='categorySlide'>
+                    <div className='categorySlide'>
                         <img src={kayaking} alt='' />
                         <h3>Kayaking</h3>
                         <p>
@@ -102,9 +114,8 @@ const Category = () => {
                                 Read More
                             </button>
                         </a>
-                    </div> */}
+                    </div>
                 </div>
-
             </div>
         </section>
     );

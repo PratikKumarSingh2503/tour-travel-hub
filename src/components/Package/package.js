@@ -153,6 +153,64 @@ const Package = () => {
                             <button>Book Now</button>
                         </div>
                     </div>
+                    <div className='packageSlide'>
+                        <div className='packageImage'>
+                            <img src={goa} alt='' />
+                            <div className='packageImageIcons'>
+                                <a href='#'><i class="fa-solid fa-cart-shopping"></i></a>
+                                <a href='#'><i class="fa-solid fa-eye"></i></a>
+                                <a href='#'><i class="fa-solid fa-share"></i></a>
+                            </div>
+                        </div>
+                        <div className='packageContent'>
+                            <h3><i class="fa-solid fa-location-dot"></i>
+                                <spam> Goa</spam></h3>
+                            <p>
+                                Lorem Ipsum Dolor Sit Amet ...
+                            </p>
+                            <div className='packageRating'>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                            <div className='packagePrice'>
+                                <i class="fa-solid fa-indian-rupee-sign"></i>
+                                <spam> 600</spam>
+                            </div>
+                            <button>Book Now</button>
+                        </div>
+                    </div>
+                    <div className='packageSlide'>
+                        <div className='packageImage'>
+                            <img src={goa} alt='' />
+                            <div className='packageImageIcons'>
+                                <a href='#'><i class="fa-solid fa-cart-shopping"></i></a>
+                                <a href='#'><i class="fa-solid fa-eye"></i></a>
+                                <a href='#'><i class="fa-solid fa-share"></i></a>
+                            </div>
+                        </div>
+                        <div className='packageContent'>
+                            <h3><i class="fa-solid fa-location-dot"></i>
+                                <spam> Goa</spam></h3>
+                            <p>
+                                Lorem Ipsum Dolor Sit Amet ...
+                            </p>
+                            <div className='packageRating'>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                            <div className='packagePrice'>
+                                <i class="fa-solid fa-indian-rupee-sign"></i>
+                                <spam> 600</spam>
+                            </div>
+                            <button>Book Now</button>
+                        </div>
+                    </div>
                 </div>
 
                 <div className='topackage'>

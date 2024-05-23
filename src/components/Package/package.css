@@ -9,8 +9,6 @@
   display: flex;
   flex-direction: column;
   background-color: white;
-  overflow: hidden;
-  overflow-y: scroll;
 }
 
 .packageTitle {
@@ -25,16 +23,28 @@
 }
 
 .packageContainer {
-  margin: 0 auto;
+  margin: 10px 100px;
   display: flex;
+  gap: 55px;
+  border: 1px solid #0b0b11;
+  border-radius: 4px;
+  overflow-x: scroll;
 }
 
 .packageSlide {
   width: 300px;
-  margin: 20px 10px;
-  border: 1px solid black;
+  margin: 5px auto;
 }
-.packageSlide:hover{
+
+.packageSlide:first-child {
+  margin-left: 30px;
+}
+
+.packageSlide:last-child {
+  margin-right: 30px;
+}
+
+.packageSlide:hover {
   box-shadow: 0 16px 32px gray;
 }
 
@@ -109,7 +119,8 @@
 .packagePrice {
   margin-top: 10px;
 }
-.packageContent button{
+
+.packageContent button {
   margin: 10px 0;
   margin-right: auto;
   right: 20px;
@@ -117,7 +128,7 @@
   border-radius: 3px;
   color: white;
   font-weight: 800;
-  background-color: #FFA500 ;
+  background-color: #FFA500;
 }
 
 .topackage {
@@ -135,4 +146,14 @@
 .topackage button:hover {
   background-color: black;
   color: white;
+}
+
+@media (max-width: 750px) {
+  .packageTitle span {
+    font-size: 24px;
+  }
+
+  .packageContainer {
+    margin: 10px 50px;
+  }
 }

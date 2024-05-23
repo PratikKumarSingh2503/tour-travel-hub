@@ -5,7 +5,7 @@
 }
 
 .reviewSec {
-  margin: 10px 0px;
+  margin: 10px auto;
   display: flex;
   flex-direction: column;
   background-color: white;
@@ -23,50 +23,70 @@
 }
 
 .reviewContainer {
-  margin: 0 auto;
+  margin: 10px 100px;
   display: flex;
+  gap: 55px;
+  border: 1px solid #0b0b11;
+  border-radius: 4px;
+  overflow-x: scroll;
 }
 
 .reviewSlide {
-  width: 330px;
-  margin: 10px 10px;
+  width: 300px;
+  margin: 5px auto;
+}
+
+.reviewSlide:first-child {
+  margin-left: 30px;
+}
+
+.reviewSlide:last-child {
+  margin-right: 30px;
+}
+
+.reviewSlide:hover {
+  box-shadow: 0 16px 32px gray;
 }
 
 .reviewComment {
+  width: 300px;
   padding: 2rem;
-  /* font-size: 1.6rem; */
   background: lightgray;
-  border-radius: .4rem;
+  border-radius: 5px;
   line-height: 2;
   position: relative;
   z-index: 0;
-  margin-bottom: 2.8rem;
+  margin-bottom: 45px;
 }
-.reviewComment::before{
+
+.reviewComment::before {
   content: '';
   position: absolute;
-  bottom: -1.5rem; left: .7rem;
+  bottom: -1.5rem;
+  left: .7rem;
   height: 3.2rem;
   width: 3rem;
   transform: rotate(50deg);
   background: lightgray;
 }
 
-.reviewUser{
+.reviewUser {
   display: flex;
   align-items: center;
   gap: 16px;
-  /* background-color: red; */
 }
-.reviewUser img{
+
+.reviewUser img {
   height: 7rem;
   width: 7rem;
   border-radius: 50%;
 }
-.reviewUser h3{
+
+.reviewUser h3 {
   font-size: 2rem;
 }
-.reviewSlide span{
+
+.reviewSlide span {
   color: rgba(2, 128, 2, 0.926);
 }
 
@@ -78,17 +98,29 @@
   background-color: black;
 }
 
-.toreview{
+.toreview {
   margin: 20px 0;
   text-align: center;
 }
-.toreview button{
+
+.toreview button {
   padding: 8px;
   color: black;
   font-weight: 600;
   background-color: rgb(254, 241, 241);
 }
-.toreview button:hover{
+
+.toreview button:hover {
   background-color: black;
   color: white;
+}
+
+@media (max-width: 750px) {
+  .reviewTitle span {
+    font-size: 24px;
+  }
+
+  .reviewContainer {
+    margin: 10px 50px;
+  }
 }

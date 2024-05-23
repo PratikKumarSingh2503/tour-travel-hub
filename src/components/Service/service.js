@@ -60,7 +60,30 @@ const Service = () => {
                         </p>
                         <button>Read More</button>
                     </div>
-
+                    <div className='serviceSlide'>
+                        <img src={service4} alt='' />
+                        <h3>Adventure Trail</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.Sapiente error eum minima nesciunt a minus et ea ipsam corporis
+                        </p>
+                        <button>Read More</button>
+                    </div>
+                    <div className='serviceSlide'>
+                        <img src={service4} alt='' />
+                        <h3>Adventure Trail</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.Sapiente error eum minima nesciunt a minus et ea ipsam corporis
+                        </p>
+                        <button>Read More</button>
+                    </div>
+                    <div className='serviceSlide'>
+                        <img src={service4} alt='' />
+                        <h3>Adventure Trail</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.Sapiente error eum minima nesciunt a minus et ea ipsam corporis
+                        </p>
+                        <button>Read More</button>
+                    </div>
                 </div>
 
                 <div className='toservices'>

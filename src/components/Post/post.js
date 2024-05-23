@@ -66,6 +66,42 @@ const Post = () => {
                         </p>
                         <button>Read More</button>
                     </div>
+                    <div className='postSlide'>
+                        <img src={post3} alt='' />
+                        <div className='postSlideIcon'>
+                            <a href='#'><i class="fa-solid fa-calendar"></i> 26th February, 2024 <span>pp</span></a>
+                            <a href='#'><i class="fa-solid fa-user"></i> By Admin</a>
+                        </div>
+                        <h3>Blog Title Goes Here.</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        </p>
+                        <button>Read More</button>
+                    </div>
+                    <div className='postSlide'>
+                        <img src={post3} alt='' />
+                        <div className='postSlideIcon'>
+                            <a href='#'><i class="fa-solid fa-calendar"></i> 26th February, 2024 <span>pp</span></a>
+                            <a href='#'><i class="fa-solid fa-user"></i> By Admin</a>
+                        </div>
+                        <h3>Blog Title Goes Here.</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        </p>
+                        <button>Read More</button>
+                    </div>
+                    <div className='postSlide'>
+                        <img src={post3} alt='' />
+                        <div className='postSlideIcon'>
+                            <a href='#'><i class="fa-solid fa-calendar"></i> 26th February, 2024 <span>pp</span></a>
+                            <a href='#'><i class="fa-solid fa-user"></i> By Admin</a>
+                        </div>
+                        <h3>Blog Title Goes Here.</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        </p>
+                        <button>Read More</button>
+                    </div>
                 </div>
 
                 <div className='toblog'>
