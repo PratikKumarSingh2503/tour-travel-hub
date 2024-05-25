@@ -20,15 +20,17 @@ const Services = () => {
           <span>H</span>
           <span>A</span>
           <span>T</span>
-          <span></span>
+          <span style={{ background: 'white' }}></span>
           <span>W</span>
           <span>E</span>
-          <span></span>
+          <span style={{ background: 'white' }}></span>
           <span>O</span>
           <span>F</span>
           <span>F</span>
           <span>E</span>
           <span>R</span>
+          <span style={{ background: 'white' }}></span>
+          <span>!</span>
         </div>
 
         <div className="servicesContainer">

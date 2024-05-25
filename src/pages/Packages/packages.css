@@ -68,7 +68,9 @@
   }
   
   .packagesImageIcons a {
+    margin-left: 5px;
     font-size: 15px;
+    background-color: #ddd;
     color: black;
   }
   
@@ -137,4 +139,25 @@
   .tohome button:hover {
     background-color: black;
     color: white;
+  }
+
+  @media (max-width: 650px) {
+    .packagesTitle span {
+      margin-left: 1px;
+      font-size: 18px;
+    }
+    .packagesSlide {
+      flex-direction: column;
+    }
+    .packagesImage {
+      width: 100%;
+    }
+    .packagesImage img {
+      width: 360px;
+      height: 360px;
+    }
+  .packagesContent {
+    padding: 0 20px;
+    font-weight: 1200;
+  }
   }

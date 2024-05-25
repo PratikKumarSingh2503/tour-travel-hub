@@ -26,16 +26,24 @@
   margin: 10px 100px;
   display: flex;
   gap: 55px;
-  border: 1px solid #0b0b11;
+  /* border: 1px solid #0b0b11; */
+  box-shadow: 0 4px 8px rgb(0, 0, 0);
   border-radius: 4px;
   overflow-x: scroll;
 }
 
 .postSlide {
   width: 300px;
-  margin: 5px auto;
+  margin: 15px auto;
   text-align: center;
   border-radius: 4px;
+}
+
+.postSlide:hover {
+  transform: scale(1.1);
+  filter: brightness(1.2);
+  transition: all 0.3s ease;
+  cursor: pointer;
 }
 
 .postSlide:first-child {
@@ -44,10 +52,6 @@
 
 .postSlide:last-child {
   margin-right: 30px;
-}
-
-.postSlide:hover {
-  box-shadow: 0 16px 32px gray;
 }
 
 .postSlideIcon {
@@ -121,5 +125,13 @@
 
   .postContainer {
     margin: 10px 50px;
+  }
+
+  .postSlide:first-child {
+    margin-left: 20px;
+  }
+  
+  .postSlide:last-child {
+    margin-right: 20px;
   }
 }

@@ -24,7 +24,7 @@ const Reviews = () => {
                     <span>M</span>
                     <span>E</span>
                     <span>R</span>
-                    <span></span>
+                    <span style={{ background: 'white' }}></span>
                     <span>R</span>
                     <span>E</span>
                     <span>V</span>

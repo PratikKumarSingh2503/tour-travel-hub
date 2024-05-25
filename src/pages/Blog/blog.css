@@ -97,3 +97,10 @@
     background-color: black;
     color: white;
   }
+
+  @media (max-width: 650px) {
+    .blogTitle span {
+      margin-left: 1px;
+      font-size: 18px;
+    }
+  }

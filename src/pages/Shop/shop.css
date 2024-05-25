@@ -16,7 +16,7 @@
 
 .shopTitle span {
   padding: 5px;
-  margin-left: 5px;
+  /* margin-left: 5px; */
   font-size: 30px;
   border-radius: 5px;
   background-color: #ababab;
@@ -72,7 +72,9 @@
 }
 
 .shopImageIcons a {
+  margin-left: 5px;
   font-size: 15px;
+  background-color: #ddd;
   color: black;
 }
 
@@ -128,6 +130,6 @@
 @media (max-width: 650px) {
   .shopTitle span {
     margin-left: 1px;
-    font-size: 14px;
+    font-size: 18px;
   }
 }

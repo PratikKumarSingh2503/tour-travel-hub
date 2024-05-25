@@ -16,13 +16,11 @@ const Navbar = () => {
             </div>
 
             <div className='middle'>
-
                 {/* <form onSubmit={handleSubmit}> */}
                 <form>
                     <label htmlFor="name"></label>
                     <input type="text" id="name" name="Name" placeholder="Search for Famous, Tourist areas" required />
                 </form>
-
             </div>
 
             <div className='right'>

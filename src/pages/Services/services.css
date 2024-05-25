@@ -75,3 +75,10 @@
   background-color: black;
   color: white;
 }
+
+@media (max-width: 650px) {
+  .servicesTitle span {
+    margin-left: 1px;
+    font-size: 18px;
+  }
+}

@@ -1,4 +1,4 @@
-import React, { useRef } from 'react';
+import React from 'react';
 import './shop.css';
 import shop1 from '../../assests/shop1.webp';
 import shop2 from '../../assests/shop2.webp';
@@ -25,7 +25,7 @@ const Shop = () => {
           <span>R</span>
           <span>E</span>
           <span>D</span>
-          <span style={{ background: 'white' }}> </span>
+          <span style={{ background: 'white' }}></span>
           <span>P</span>
           <span>R</span>
           <span>O</span>
@@ -221,29 +221,6 @@ const Shop = () => {
               </button>
             </div>
           </div>
-          {/* <div className='shopSlide'>
-            <div className='shopImage'>
-              <img src={'/'} alt='' />
-              <div className='shopImageIcons'>
-                <a href='#'><i class="fa-solid fa-cart-shopping"></i></a>
-                <a href='#'><i class="fa-solid fa-eye"></i></a>
-                <a href='#'><i class="fa-solid fa-share"></i></a>
-              </div>
-            </div>
-            <div className='shopContent'>
-              <h3>Survival Kits</h3>
-              <p>
-                $5.00 - $25.00
-              </p>
-              <button>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star-half-stroke"></i>
-              </button>
-            </div>
-          </div>
           <div className='shopSlide'>
             <div className='shopImage'>
               <img src={'/'} alt='' />
@@ -312,7 +289,30 @@ const Shop = () => {
                 <i class="fa-solid fa-star-half-stroke"></i>
               </button>
             </div>
-          </div> */}
+          </div>
+          <div className='shopSlide'>
+            <div className='shopImage'>
+              <img src={'/'} alt='' />
+              <div className='shopImageIcons'>
+                <a href='#'><i class="fa-solid fa-cart-shopping"></i></a>
+                <a href='#'><i class="fa-solid fa-eye"></i></a>
+                <a href='#'><i class="fa-solid fa-share"></i></a>
+              </div>
+            </div>
+            <div className='shopContent'>
+              <h3>Survival Kits</h3>
+              <p>
+                $5.00 - $25.00
+              </p>
+              <button>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half-stroke"></i>
+              </button>
+            </div>
+          </div>
 
         </div>
       </div>
