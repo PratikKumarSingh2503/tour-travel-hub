@@ -57,27 +57,12 @@
 
 
 .right {
-    width: 200px;
-    display: flex;
-    margin-right: 60px;
-    align-items: center;
+    margin-right: 80px;
 }
 
-.right-img {
-    margin-right: 20px;
-    border-radius: 30px;
-}
-
-.right2 {
-    display: flex;
-    justify-content: center;
+.right li {
     list-style: none;
-}
-
-.right2 li {
-    margin-right: 30px;
     font-size: 18px;
-    font-weight: 300;
     cursor: pointer;
 }
 
@@ -89,10 +74,6 @@
 .rightlink:hover {
     color: blue;
 }
-
-
-
-
 
 
 
@@ -139,12 +120,9 @@
     }
 
     .right {
-        margin-right: 30px;
-        width: 100px;
+        margin-right: 20px;
+        /* font-weight: 500; */
     }
 
-    .right2 li {
-        font-size: 13px;
-    }
 
 }

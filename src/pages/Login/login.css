@@ -1,68 +1,122 @@
-.login{
-    height: calc(100vh - 70px);
-    margin: 10px;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.login {
+    height: calc(95vh - 0px);
+    width: calc(220vh - 0px);
+    background-image: url("login.jpg");
+    background-size: cover;
 }
 
-.loginContainer{
-    /* position: relative; */
-    height: 100%;
-    width: 100%;
-    display: flex;
-    background-image: url("login.jpg");
-    background-size: cover;
-}
-.loginSec{
-    /* position: absolute; */
-    margin: 50px auto 100px;
-    padding: 50px 150px;
-    background-image: url("login.jpg");
-    background-size: cover;
-    border-radius: 10px;
-    /* z-index: 1; */
-}
-/* .transparent{
-    opacity: 0.5;
-} */
-.loginTitle{
-    font-size: 50px;
-}
-.loginForm{
-    margin-top: 20px;
+.loginContainer {
+    margin: auto;
+    padding-top: 50px;
     display: flex;
     flex-direction: column;
+    width: 600px;
 }
-.loginForm > label{
-    margin: 10px 0;
-    font-weight: 600;
-}
-.loginInput{
-    padding: 10px;
-    background-color: beige;
-    border: none;
-}
-.loginBut{
-    margin-top: 20px;
-    padding: 10px;
+
+.loginContainer:hover {
+    height: 100%;
+    transform: scale(1.03);
+    transition: all 0.3s ease;
+    background-image: url("login.jpg");
+    background-size: cover;
     cursor: pointer;
-    background-color: #ff004f;
-    color: white;
-    font-weight: 600;
-    border-radius: 10px;
+
+    .forget-password {
+        color: white;
+    }
+
+    .forget-password span {
+        color: rgb(251, 199, 199);
+        font-weight: 500;
+    }
 }
-.loginRegisBut{
-    position: absolute;
-    top: 60px;
-    right: 20px;
-    margin: 10px;
-    padding: 10px;
-    background-color: rgb(2, 195, 195);
-    border-radius: 10px;
+
+.loginheader {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.text {
+    color: #3c009d;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.underline {
+    width: 65px;
+    height: 6px;
+    background-color: #3c009d;
+    border-radius: 9px;
+}
+
+.inputs {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.input {
+    display: flex;
+    align-items: center;
+    margin: auto;
+    width: 480px;
+    height: 60px;
+    background-color: #ddd;
+    border-radius: 6px;
+}
+
+.input img {
+    margin: 0 30px;
+}
+
+.input input {
+    height: 50px;
+    width: 400px;
+    background: transparent;
     border: none;
+    outline: none;
+    color: #797979;
+    font-size: 19px;
 }
-.toRegister{
+
+.forget-password {
+    padding-left: 60px;
+    margin-top: 30px;
     color: black;
-    font-weight: 600;
+    font-size: 18px;
+}
+
+.forget-password span {
+    color: #4c00b4;
+    cursor: grab;
+}
+
+.submit-container {
+    display: flex;
+    gap: 40px;
+    margin: 40px auto;
+}
+
+.submit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 50px;
+    color: #fff;
+    background: #4c00b4;
+    border-radius: 50px;
+    font-size: 19px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.gray {
+    background: #EAEAEA;
+    color: #676676;
 }
